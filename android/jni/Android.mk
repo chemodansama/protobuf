@@ -28,7 +28,7 @@ LOCAL_SRC_FILES :=\
 	../../src/google/protobuf/stubs/time.cc \
 	../../src/google/protobuf/wire_format_lite.cc
 
-LOCAL_CFLAGS := -D GOOGLE_PROTOBUF_NO_RTTI=1
+LOCAL_CFLAGS := -DGOOGLE_PROTOBUF_NO_RTTI=1
 LOCAL_CPPFLAGS := -std=c++1y
 LOCAL_C_INCLUDES = $(LOCAL_PATH)/../../src
 
